@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>TV App</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <div id="app">
+           <h1>TV App</h1>
+           <input type="text" id="search" placeholder="Search for movies or TV shows">
+           <button id="search-btn">Search</button>
+           <div id="results"></div>
+           <video id="video-player" controls>
+               <source src="" type="video/mp4">
+               Your browser does not support the video tag.
+           </video>
+           <div id="player-controls">
+               <select id="subtitles"></select>
+               <select id="audio"></select>
+               <select id="quality"></select>
+           </div>
+       </div>
+       <script src="script.js"></script>
+   </body>
+   </html>
